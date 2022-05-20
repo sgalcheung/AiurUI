@@ -3,7 +3,7 @@
   "version": "0.8.0",
   "description": "The place for shared static resources of Aiursoft web apps.",
   "scripts": {
-    "start": "npm run build && live-server --port=5000",
+    "start": "npm run build && live-server --cors --port=5000",
     "build": "gulp bundle && webpack",
     "clean": "gulp clean"
   },
